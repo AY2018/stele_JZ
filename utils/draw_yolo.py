@@ -34,12 +34,11 @@ def draw_polygons(image_path, yolo_txt_path):
     cv2.destroyAllWindows()
 
 # Define the file name 
-file_name = '00033_intext'  
+file_name = '00383-21_inv_color_shear'  
 
 # Construct the input paths
-image_path = f'/Users/ayoub/Documents/GitHub/stele_JZ/intext_images/{file_name}.jpg'
-yolo_txt_path = f'/Users/ayoub/Documents/GitHub/stele_JZ/yolo/{file_name}.txt'
-
+image_path = f'/Users/ayoub/Documents/GitHub/stele_JZ/dataset/images/train/{file_name}.jpg'
+yolo_txt_path = f'/Users/ayoub/Documents/GitHub/stele_JZ/dataset/labels/train/{file_name}.txt'
 # Draw polygons on the image and display it
 draw_polygons(
     image_path=image_path,
